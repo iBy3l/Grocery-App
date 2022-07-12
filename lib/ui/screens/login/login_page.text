@@ -1,0 +1,127 @@
+import 'package:flutter/material.dart';
+import 'package:ui_grocery_app/ui/screens/home/home_page.dart';
+
+import '../../theme/colors.dart';
+import 'componets/button_disc_number_widget.dart';
+
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key? key}) : super(key: key);
+  static const String routeName = '/login';
+
+  static Route route() {
+    return MaterialPageRoute(
+        settings: const RouteSettings(name: routeName),
+        builder: (_) => LoginPage());
+  }
+
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back_ios,
+            color: Colors.black,
+            size: 16,
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Container(
+            //color: Colors.amber,
+            height: 370,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Image(
+                      height: 55,
+                      fit: BoxFit.cover,
+                      image: AssetImage(
+                        'assets/img/logo/logo2.png',
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      textAlign: TextAlign.center,
+                      'Enter your mobile\nnumber',
+                      style: TextStyle(
+                          letterSpacing: 1.4,
+                          color: lightFontDark,
+                          fontSize: 27,
+                          fontWeight: FontWeight.w700,
+                          fontFamily: 'DMSans'),
+                    ),
+                    const Text(
+                      'We will send you a verification code',
+                      style: TextStyle(
+                          color: lightFontGrey,
+                          fontSize: 16,
+                          fontWeight: FontWeight.normal,
+                          fontFamily: 'DMSans'),
+                    ),
+                    SizedBox(height: 20),
+                    Container(
+                      height: 80,
+                      width: 300,
+                    ),
+                    SizedBox(height: 20),
+                    ElevatedButton(
+                      style: ButtonStyle(
+                        padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+                            const EdgeInsets.symmetric(
+                                horizontal: 120, vertical: 15)),
+                        backgroundColor: MaterialStateProperty.all<Color>(
+                            lightColorsPrimary2),
+                        shape:
+                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(45),
+                          ),
+                        ),
+                      ),
+                      onPressed: () {
+                      
+                      },
+                      child: const Text(
+                        'Continue',
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.w700),
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      textAlign: TextAlign.center,
+                      'By clicking on “Continue” you are agreeing\nto our terms of use',
+                      style: TextStyle(color: lightFontGrey),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 5),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: buildKeyboard(),
+          ),
+        ],
+      ),
+    );
+  }
+}
