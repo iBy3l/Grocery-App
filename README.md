@@ -9,6 +9,7 @@
 <p align="center"><img src="https://github.com/iBy3l/Grocery-App/blob/main/Screencast%20from%2012-07-2022%2016_55_32.gif"></p>
 
 
+
 ## About the Demo
 ```
    . This is my demo app, my complete app is in production, it's already in process 
@@ -16,9 +17,9 @@
 ```
 
 
-## About the Demo
+## File Pattern Inside The lib Folder
 ```
- ├── lib
+├── lib
 │   ├── bloc
 │   │   ├── cart
 │   │   │   └── bloc
@@ -95,3 +96,12 @@
 └─────── main.dart
  
 ```
+
+## UI Design Contribution and License
+```
+   . Omar 
+   link https://www.figma.com/@OmarUIUX
+   link projeto https://www.figma.com/file/HMPuKCaPugYjBkOT8cOHdC/Grocery-App-%F0%9F%A5%A6-(Community)
+   link https://www.linkedin.com/in/omar-yassir-7273b4200/
+```
+<p align="center"><img src="https://github.com/iBy3l/Grocery-App/blob/main/Grocery%20App%20%F0%9F%A5%A6.png"></p>
