@@ -1,17 +1,16 @@
-# ui_grocery_app
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 
-A new Flutter project.
 
-## Getting Started
+# UI Grocery app Demo
 
-This project is a starting point for a Flutter application.
+<p align="center"><img src="https://github.com/iBy3l/flutter_app_humburguer/blob/main/hamb.gif"></p>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Grocery-App
+## About the Demo
+```
+   . This is my demo app, my complete app is in production, it's already in process 
+     with firebase and more responsive with the app's dashboard controller
+```
