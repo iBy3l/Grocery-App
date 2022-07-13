@@ -4,9 +4,11 @@
 ![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 
 
+<h></h>
+
 # UI Grocery app Demo
 
-<p align="center"><img src="https://github.com/iBy3l/Grocery-App/blob/main/Screencast%20from%2012-07-2022%2016_55_32.gif"></p>
+<p align="center"><img src="https://github.com/iBy3l/Grocery-App/blob/main/ezgif.com-gif-maker%20(1).gif"></p>
 
 
 
